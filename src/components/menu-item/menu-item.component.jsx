@@ -1,11 +1,12 @@
 import React from 'react';
-import {withRouter} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import { useHistory, useRouteMatch } from "react-router-dom";
 import './menu-item.styles.scss'
 
 const MenuItem = ({title, imageUrl, size, linkUrl}) => {
     let history = useHistory();
-    let match= useRouteMatch()
+    let match= useRouteMatch();
+    
     console.log(linkUrl)
     return (
         <div 
