@@ -7,7 +7,6 @@ const MenuItem = ({title, imageUrl, size, linkUrl}) => {
     let history = useHistory();
     let match= useRouteMatch();
     
-    console.log(linkUrl)
     return (
         <div 
         className={`${size} menu-item`} 
